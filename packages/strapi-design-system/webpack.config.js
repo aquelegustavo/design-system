@@ -45,7 +45,7 @@ module.exports = {
   mode: process.env.NODE_ENV,
   devtool: process.env.NODE_ENV === 'development' ? 'eval-source-map' : false,
   output: {
-    filename: `[name].${process.env.NODE_ENV}.js`,
+    filename: `[name].js`,
     path: outputPath,
     libraryTarget: 'umd',
     globalObject: 'this',
